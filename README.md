@@ -70,12 +70,12 @@ interactive fashion:
     secret
     $
     $ ./tibfuscate.py --obfuscate < plain.txt > obfus.txt
-	$ cat obfus.txt
-	#!7Vi72SGmXl/6htZ6YDemTGSGia0XbBqSu4wIocIqPUE=
+    $ cat obfus.txt
+    #!7Vi72SGmXl/6htZ6YDemTGSGia0XbBqSu4wIocIqPUE=
     #!H6vwKzmAMMlQ7UlFTQTde+/O4TWTuWU1lP5jrnNeV5KI/LhlKEkTLkHDrHFQchB1
     #!ecVpqAKH+Ii7p/eo3r3lCUD/zkm5Tc28
-	$
-	$ ./tibfuscate.py < obfus.txt
+    $
+    $ ./tibfuscate.py < obfus.txt
     MyPassword
     #!AnotherPassword
     secret
